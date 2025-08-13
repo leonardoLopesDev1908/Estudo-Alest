@@ -30,13 +30,11 @@ public class Comparison {
 
         /*Complexidade para remover o primeiro item */
         removePrimeiroItem(arr, linked);
-
-
     }
 
     public static void getItemAleatorio(ArrayList<Integer> arr, LinkedList<Integer> linked){
         /*
-         * 	ArrayList é mais rápido, pois acesso aleatório é O(1) vs O(n) do LinkedList
+         * 	ArrayList é mais rápido, pois o acesso aleatório é O(1) vs O(n) do LinkedList
          * 
          * arr.get(random)
             Tempo de execução: 0.2115

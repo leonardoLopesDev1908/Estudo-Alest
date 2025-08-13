@@ -12,6 +12,7 @@ public class TreeSetComplexity{
             tree.add(i);
         }
 
+        
         putItem(tree);
 
         getFirst(tree);
